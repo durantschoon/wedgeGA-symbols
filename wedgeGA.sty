@@ -1,0 +1,96 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{wedgeGA}[2025/10/30 GA W/anti-W symbols]
+
+\RequirePackage{tikz}
+
+% Usage
+% -----
+% Using the new symbols as is:
+% \documentclass{article}
+% \usepackage{wedgeGA}
+% \begin{document}
+% $A \wedgeGA B \antiwedgeGA C$
+% \end{document}
+%
+% Replacing the old symbols with the new
+% \let\oldwedge\wedge
+% \let\oldvee\vee
+% \renewcommand{\wedge}{\wedgeGA}
+% \renewcommand{\vee}{\antiwedgeGA}
+% 
+% Replacement, but reversible
+% \newcommand{\useGAsymbols}{
+%  \renewcommand{\wedge}{\wedgeGA}
+%  \renewcommand{\vee}{\antiwedgeGA}
+% }
+% \newcommand{\useNormalSymbols}{
+%   \renewcommand{\wedge}{\oldwedge}
+%   \renewcommand{\vee}{\oldvee}
+% }
+% then use:
+% \useGAsymbols
+% \useNormalSymbols
+
+
+% Tunables
+\pgfmathsetmacro{\GAheight}{0.25}
+\pgfmathsetmacro{\GAdip}{0.07}
+\pgfmathsetmacro{\GAawHeightnudge}{0.01}
+\pgfmathsetmacro{\GAawHeight}{\GAheight - \GAawHeightnudge}
+
+% Shapes
+\tikzset{
+  wedgeGAshape/.pic={
+    \begin{scope}[line cap=round]
+      \draw[line width=0.07em]
+        (-0.30,  \GAheight) -- (-0.15, -\GAheight)
+        -- ( 0.00, -\GAdip)
+        -- ( 0.15, -\GAheight)
+        -- ( 0.30,  \GAheight);
+    \end{scope}
+  },
+  antiwedgeGAshape/.pic={
+    \begin{scope}[line cap=round]
+      \draw[line width=0.07em]
+        (-0.30, -\GAawHeight) -- (-0.15,  \GAawHeight)
+        -- ( 0.00,  \GAdip)
+        -- ( 0.15,  \GAawHeight)
+        -- ( 0.30, -\GAawHeight);
+    \end{scope}
+  }
+}
+
+% Boxes (separate struts + baselines)
+\newcommand{\GArelboxUp}[2]{%
+  \mathrel{\vcenter{\hbox{%
+    \rule{0pt}{1.2ex}% top strut
+    \rule[-0.90ex]{0pt}{0pt}% depth
+    \tikz[x=1em,y=1em,baseline=-0.34ex,scale=#1]{\pic{#2};}%
+  }}}%
+}
+\newcommand{\GArelboxDown}[2]{%
+  \mathrel{\vcenter{\hbox{%
+    \rule{0pt}{1.58ex}%
+    \rule[-0.94ex]{0pt}{0pt}%
+    \tikz[x=1em,y=1em,baseline=-0.38ex,scale=#1]{\pic{#2};}%
+  }}}%
+}
+
+% Public macros (auto-scale)
+\newcommand{\wedgeGA}{%
+  \mathchoice{\GArelboxUp{0.53}{wedgeGAshape}}%
+             {\GArelboxUp{0.53}{wedgeGAshape}}%
+             {\GArelboxUp{0.45}{wedgeGAshape}}%
+             {\GArelboxUp{0.37}{wedgeGAshape}}%
+}
+\newcommand{\antiwedgeGA}{%
+  \mathchoice{\GArelboxDown{0.53}{antiwedgeGAshape}}%
+             {\GArelboxDown{0.53}{antiwedgeGAshape}}%
+             {\GArelboxDown{0.45}{antiwedgeGAshape}}%
+             {\GArelboxDown{0.37}{antiwedgeGAshape}}%
+}
+% Aliases: (but this might be too confusing with analogue video standards):
+% \let\veeGA\antiwedgeGA
+% Better alternate name in honor of the joke "What do you get when you cross a mosquito and a mountain climber?" 
+% \let\mountainGA\antiwedgeGA
+% In case you didn't get it ... it's because it looks like an "M" and you also should have noticed that \wedgeGA looks like a W.

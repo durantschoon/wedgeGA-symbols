@@ -37,5 +37,6 @@ _TODO finish writing this_
 
 * Forever and always to
   * [Eric Lengyel](https://terathon.com/lengyel/) whose GDC (2012?, 2014?) presentations were the first place I heard of Grassmann Algebras
-  * [David Hestenes](https://davidhestenes.net/geocalc/pdf/GrassmannsVision.pdf) 
+  * David Hestenes [Grassmann's Vision](https://davidhestenes.net/geocalc/pdf/GrassmannsVision.pdf) 
+  * Freya Holmér [Why can't you multiply vectors?](https://www.youtube.com/watch?v=htYh-Tq7ZBI) 
 

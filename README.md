@@ -1,7 +1,9 @@
 
-_tl;dr_ For people who know the old symbols, to recognize the new, look for the tiny upward pointing $\wedge$ in the new wedge and the downward pointing $\vee$ in the new antiwedge (and read as you normally would).
+| _tl;dr_ |
+|--|
+|For people who know the old symbols, to recognize the new, look for the tiny upward pointing $\wedge$ in the new wedge and the downward pointing $\vee$ in the new antiwedge (and read as you normally would).<br><br>_TODO render graphics to get the new symbols to show in the previous sentence._|
 
-_TODO render graphics to get the new symbols to show in the previous sentence._
+
 
 More longwindedly, if you are used to the old (IMO incorrect) symbols $\wedge$ and $\vee$, instead of trying to fix the world by just swapping them (exposing all prior documents as completely bass ackwards but causing irrecoverable choas in the Geometric Algebra world), these new symbols have a special helper build into them. The new wedge has the tiny upward pointing $\wedge$ in it and the new antiwedge has a downward pointing $\vee$ in it.
 
@@ -19,7 +21,7 @@ I'll do my research and maybe make a video. For now (this is from Chrome browser
 
 ## A fragment of history
 
-> Gian-Carlo Rota was a prominent modern proponent of Grassmann's original point of view on the exterior algebra, which he and his students referred to as "geometric algebra". He advocated for a return to Grassmann's original synthetic approach, where the symbols in the algebra directly denote geometric objects ("pieces of space") rather than just coordinates or numbers. Regarding the specific symbols used for the exterior product: Rota used the term "progressive product" (a translation of Grassmann's fortschreitendes Produkt) for the exterior product. This name highlights that the operation increases the grade (dimension) of the geometric objects involved (e.g., the product of a point and a line is a plane, a 1-vector and a 1-vector is a 2-vector, which represents an area element).While the common symbol for the exterior or wedge product today is \(\l and \) (which Rota was certainly familiar with), Rota sometimes used other notation in his work, such as a simple concatenation (juxtaposition) or square brackets in specific contexts. One source notes that "Geometric algebra" is a term occasionally used to describe Rota's circle of ideas, but it is often treated as a synonym for Clifford algebra by most authors.
+> Gian-Carlo Rota was a prominent modern proponent of Grassmann's original point of view on the exterior algebra, which he and his students referred to as "geometric algebra". He advocated for a return to Grassmann's original synthetic approach, where the symbols in the algebra directly denote geometric objects ("pieces of space") rather than just coordinates or numbers. Regarding the specific symbols used for the exterior product: Rota used the term "progressive product" (a translation of Grassmann's _fortschreitendes Produkt_) for the exterior product. This name highlights that the operation increases the grade (dimension) of the geometric objects involved (e.g., the product of a point and a line is a plane, a 1-vector and a 1-vector is a 2-vector, which represents an area element). While the common symbol for the exterior or wedge product today is \(\l and \) (which Rota was certainly familiar with), Rota sometimes used other notation in his work, such as a simple concatenation (juxtaposition) or square brackets in specific contexts. One source notes that "Geometric algebra" is a term occasionally used to describe Rota's circle of ideas, but it is often treated as a synonym for Clifford algebra by most authors.
 
 <mark> Rota was also aware that the standard symbol for the join operation in projective geometry and lattice theory is $\lor$, but in exterior algebra the "wedge" symbol $\land$ is used, which he considered "backwards" in a certain sense. He noted that $\lor$ should correspond to the union operation in some generalized sense, given the geometric interpretation of the product spanning a subspace. </mark>
 

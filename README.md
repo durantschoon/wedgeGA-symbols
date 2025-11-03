@@ -29,7 +29,7 @@ I'll do my research and maybe make a video. For now (this is from Chrome browser
 
 ## Why these new symbols
 
-Coming from the computer graphics world and having learned traditional vector calculus in the American education system, I actually became quite upset (closest I get to autism) that this beautiful math had inconsistent symbols. I'll have to look this up again, but apparently the wedge and the vee were not Grassman's but added by the person show collected his notes or something. These days I like to think of that person as a knowing saboteur who deprived all of us from this math winning out. This I hope is helpful for anyone who is undecided about switching to new symbols to invoke the proper anger anger against this person and have nothing to do with their wicked plot! (not-to-self: hopefuly it doesn't turn out to be a beloved famous mathematician).
+Coming from the computer graphics world and having learned traditional vector calculus in the American education system, I actually became quite upset (closest I get to autism) that this beautiful math had inconsistent symbols. I'll have to look this up again, but apparently the wedge and the vee were not Grassman's but added by the person show collected his notes or something. These days I like to think of that person as a knowing saboteur who deprived all of us from this math winning out. This I hope is helpful for anyone who is undecided about switching to new symbols to invoke the proper anger anger against this person and have nothing to do with their wicked plot! (note-to-self: hopefuly it doesn't turn out to be a beloved famous mathematician).
 
 I will never get the US to adopt SI units instead of imperial but for some reason I feel like spending the effort to help right this wrong.
 

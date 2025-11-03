@@ -27,6 +27,8 @@ I'll do my research and maybe make a video. For now (this is from Chrome browser
 
 > In essence, Rota's "choice of symbols" was tied to his philosophical preference for a synthetic, geometrically intuitive notation that reflected the combinatorial and geometric nature of Grassmann's ideas, which he sought to revive and bring into mainstream mathematics. He emphasized the conceptual meaning behind the symbols, such as "progressive product," rather than just their conventional use.
 
+Note to self: Review https://ar5iv.labs.arxiv.org/html/0904.3349
+
 ## Why these new symbols
 
 Coming from the computer graphics world and having learned traditional vector calculus in the American education system, I actually became quite upset (closest I get to autism) that this beautiful math had inconsistent symbols. I'll have to look this up again, but apparently the wedge and the vee were not Grassman's but added by the person show collected his notes or something. These days I like to think of that person as a knowing saboteur who deprived all of us from this math winning out. This I hope is helpful for anyone who is undecided about switching to new symbols to invoke the proper anger anger against this person and have nothing to do with their wicked plot! (note-to-self: hopefuly it doesn't turn out to be a beloved famous mathematician).
@@ -39,6 +41,11 @@ _TODO finish writing this_
 
 * Forever and always to
   * [Eric Lengyel](https://terathon.com/lengyel/) whose GDC (2012?, 2014?) presentations were the first place I heard of Grassmann Algebras
-  * David Hestenes [Grassmann's Vision](https://davidhestenes.net/geocalc/pdf/GrassmannsVision.pdf) 
-  * Freya Holmér [Why can't you multiply vectors?](https://www.youtube.com/watch?v=htYh-Tq7ZBI) 
+  * David Hestenes [Grassmann's Vision](https://davidhestenes.net/geocalc/pdf/GrassmannsVision.pdf)
+  * David Geo Holmes (& STEMCstudio) [_17 Lesson Videos on GA_](https://www.youtube.com/playlist?list=PLxo3PbygE0PLdFFy_2b02JAaUsleFW8py)
+    * Coming from a Computer Science background I really enjoyed these introductory videos using Typescript!
+  * Freya Holmér [Why can't you multiply vectors?](https://www.youtube.com/watch?v=htYh-Tq7ZBI)
+ 
+# Random
+  * I'm certain I saw a copy of David Hestenes' book on Bret Victor's ([WorryDream](https://worrydream.com/)) literal, physical bookshelf at an open house of Dynamicland in Oakland, CA, USA.
 

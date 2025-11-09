@@ -1,23 +1,23 @@
 
 | _tl;dr_ |
 |--|
-|For people who know the old symbols, to recognize the new, look for the tiny upward pointing $\wedge$ in the new wedge and the downward pointing $\vee$ in the new antiwedge (and read as you normally would).<br><br>_TODO render graphics to get the new symbols to show in the previous sentence._|
+|For people who know the old symbols, to recognize the new, look for the tiny upward pointing $\wedge$ in the new wedge (see it at the bottom of this: <img src="docs/wedgeGA.svg" alt="\wedgeGA" style="height:1em; vertical-align:-0.15em;">?) and the downward pointing $\vee$ at the top of the new antiwedge (<img src="docs/antiwedgeGA.svg" alt="\antiwedgeGA" style="height:1em; vertical-align:-0.15em;">) and then just read as you normally would.|
 
 
 
-More longwindedly, if you are used to the old (IMO incorrect) symbols $\wedge$ and $\vee$, instead of trying to fix the world by just swapping them (exposing all prior documents as completely bass ackwards but causing irrecoverable choas in the Geometric Algebra world), these new symbols have a special helper build into them. The new wedge has the tiny upward pointing $\wedge$ in it and the new antiwedge has a downward pointing $\vee$ in it.
+More longwindedly, if you are used to the old symbols $\wedge$ and $\vee$, instead of trying to fix the world by just swapping them (exposing all prior documents as completely bass ackwards but causing irrecoverable choas in the Geometric Algebra world), these new symbols have a special helper built into them. The new wedge has the tiny upward pointing $\wedge$ in it and the new antiwedge has a downward pointing $\vee$ in it.
 
-So `\wedgeGA` ($\wedgeGA$ $\leftarrow$ yes I'll fix this in the README) can replace `\wedge` ($\wedge$) or `\land` ($\land$) (if you're using that)
+So <img src="docs/wedgeGA.svg" alt="\wedgeGA" style="height:1em; vertical-align:-0.15em;"> can replace `\wedge` ($\wedge$) or `\land` ($\land$) (if you're using that)
 
-and \antiwedgeGA ($\antiwedgeGA$) can replace `\vee` ($\vee$) or `\lor` ($\lor$).
+and `\antiwedgeGA` (<img src="docs/antiwedgeGA.svg" alt="\antiwedgeGA" style="height:1em; vertical-align:-0.15em;">) can replace `\vee` ($\vee$) or `\lor` ($\lor$).
 
-... actually I'm partial to `\mountainGA` for `\wedgeGA` but I'd be pushing my luck with that one (see the latex code at the end of the .sty file for an explanation).
+... actually I'm partial to `\mountainGA` for `\antiwedgeGA` but I'd be pushing my luck with that one (see the latex code at the end of the .sty file for an explanation). And of course, the new wedge symbol looks like a W, coincidentally enough, and the new anti-wedge like the letter M.
 
-So for everyone who has been using the old symbols, I regard you as TRAITORS TO BEAUTY OF THE HIGHEST DEGREE, but also you've been forging the path to bring this math to the people, so actually I forgive and quite frankly thank you (everyone except the dastard who created them -- and it was't Hermann Grassmann! (TODO provide proof below)).
+So for everyone who has been using the old symbols, I regard you as TRAITORS TO BEAUTY OF THE HIGHEST DEGREE ;), but you've also been forging the path to bring this math to the people, so actually I forgive and quite frankly thank you (everyone except the dastard who created them -- and it was't Hermann Grassmann! (TODO provide proof below)).
 
 # wedgeGA-symbols
 
-I'll do my research and maybe make a video. For now (this is from Chrome browser's AI ... Google Gemini maybe? ... I extracted one sentence for highlighting converted the latex to markdown):
+I was only aware of the swapped usage from other mathematicians who would point this out in the basic resources I was using to learn about Geometric/Grassmann Algebras. Here's some reference I heard of one mathematician (this is from Chrome browser's AI ... Google Gemini maybe? ... I extracted one sentence for highlighting converted the latex to markdown):
 
 ## A fragment of history
 
@@ -31,9 +31,9 @@ Note to self: Review https://ar5iv.labs.arxiv.org/html/0904.3349
 
 ## Why these new symbols
 
-Coming from the computer graphics world and having learned traditional vector calculus in the American education system, I actually became quite upset (closest I get to autism) that this beautiful math had inconsistent symbols. I'll have to look this up again, but apparently the wedge and the vee were not Grassman's but added by the person show collected his notes or something. These days I like to think of that person as a knowing saboteur who deprived all of us from this math winning out. This I hope is helpful for anyone who is undecided about switching to new symbols to invoke the proper anger anger against this person and have nothing to do with their wicked plot! (note-to-self: hopefuly it doesn't turn out to be a beloved famous mathematician).
+Coming from the computer graphics world and having learned traditional vector calculus in the American education system, I actually became quite upset (closest I get to autism) that this beautiful math had the exact opposite symbols that they should have. I'll have to look this up again, but apparently the wedge and the vee were not Grassman's but added by the person who collected his notes. These days I like to think of that person as a knowing saboteur who deprived all of us from this math winning out! \[Edit\] Ok, it looks like it was [Claude Chevalley](https://en.wikipedia.org/wiki/Claude_Chevalley) if you believe this blog article that says: “the wedge symbol seems to have originated with Claude Chevalley sometime between 1951 and 1954.” ([source](https://galileo-unbound.blog/2019/12/02/hermann-grassmanns-nimble-wedge-product/?utm_source=chatgpt.com)) and the symbols were picked up by Bourbaki. Ok, Chevalley is probably somebody's favorite mathematician and the article 
 
-I will never get the US to adopt SI units instead of imperial but for some reason I feel like spending the effort to help right this wrong.
+I will never get the US to adopt SI units instead of imperial but for some reason I feel like spending the effort to help right this particular wrong before the poison spreads too far!
 
 _TODO finish writing this_
 

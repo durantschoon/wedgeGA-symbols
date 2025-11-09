@@ -36,12 +36,13 @@ And although I will never get the US to adopt SI units instead of imperial, for 
 # Gratitude
 
 * Forever and always to
+  * Freya Holmér [Why can't you multiply vectors?](https://www.youtube.com/watch?v=htYh-Tq7ZBI) *You should probably just watch this before anything else.*
+    * The first time I saw Freya Holmér's amazing [YouTube channel](https://www.youtube.com/@acegikmo) I thought to myself "Oh if only I could suggest to her to look at Grassmann Algebras" and I had todo items for years saying "Suggest Grassmann Algebras to Freya Holmér" and I always assumed she'd think I'm a total loon. And now look! I was completely inconsequential with her making this (2 years ago now even ... I guess I stopped paying attention to the world).
   * [Eric Lengyel](https://terathon.com/lengyel/) whose GDC (2012?, 2014?) presentations were the first place I heard of Grassmann Algebras
   * David Hestenes [Grassmann's Vision](https://davidhestenes.net/geocalc/pdf/GrassmannsVision.pdf)
   * David Geo Holmes (& STEMCstudio) [_17 Lesson Videos on GA_](https://www.youtube.com/playlist?list=PLxo3PbygE0PLdFFy_2b02JAaUsleFW8py)
-    * Coming from a Computer Science background I really enjoyed these introductory videos using Typescript!
-  * Freya Holmér [Why can't you multiply vectors?](https://www.youtube.com/watch?v=htYh-Tq7ZBI)
-
+    * Coming from a Computer Science background I really enjoyed these introductory videos using Typescript.
+  
 # Random
 
 * I'm certain I saw a copy of David Hestenes' book on Bret Victor's ([WorryDream](https://worrydream.com/)) literal, physical bookshelf at an open house of Dynamicland in Oakland, CA, USA.

@@ -1,0 +1,19 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+*.pdf
+*.dvi
+*.ps
+
+# Generated figures
+/examples/*.pdf
+/examples/*.svg
+
+# Editor files
+.DS_Store
+*.swp

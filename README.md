@@ -1,3 +1,8 @@
+<p align="center">
+ <img width="427" height="32" alt="old_wedges_vs_new_v2" src="https://github.com/user-attachments/assets/93bb715a-71e7-4a36-ab40-51f44b614ead" />
+</p>
+<br>
+
 | _tl;dr_ |
 |--|
 |For people who know the old symbols, to recognize the new, look for the tiny upward pointing $\wedge$ in the new wedge (see it at the bottom of this: <img src="docs/wedgeGA.svg" alt="\wedgeGA" style="height:1em; vertical-align:-0.15em;">?) and the downward pointing $\vee$ at the top of the new antiwedge (<img src="docs/antiwedgeGA.svg" alt="\antiwedgeGA" style="height:1em; vertical-align:-0.15em;">) and then just read as you normally would.|

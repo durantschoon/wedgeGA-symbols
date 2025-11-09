@@ -1,4 +1,3 @@
-
 | _tl;dr_ |
 |--|
 |For people who know the old symbols, to recognize the new, look for the tiny upward pointing $\wedge$ in the new wedge (see it at the bottom of this: <img src="docs/wedgeGA.svg" alt="\wedgeGA" style="height:1em; vertical-align:-0.15em;">?) and the downward pointing $\vee$ at the top of the new antiwedge (<img src="docs/antiwedgeGA.svg" alt="\antiwedgeGA" style="height:1em; vertical-align:-0.15em;">) and then just read as you normally would.|
@@ -11,7 +10,7 @@ and `\antiwedgeGA` (<img src="docs/antiwedgeGA.svg" alt="\antiwedgeGA" style="he
 
 ... actually I'm partial to `\mountainGA` for `\antiwedgeGA` but I'd be pushing my luck with that one (see the latex code at the end of the .sty file for an explanation). And of course, the new wedge symbol looks like a W, coincidentally enough, and the new anti-wedge like the letter M.
 
-So for everyone who has been using the old symbols, I regard you as TRAITORS TO BEAUTY OF THE HIGHEST DEGREE ;), but you've also been forging the path to bring this math to the people, so actually I forgive and quite frankly thank you (everyone except the dastard who created them -- and it was't Hermann Grassmann! (some history below)).
+So for everyone who has been using the old symbols, I regard you as TRAITORS TO BEAUTY OF THE HIGHEST DEGREE ;), but you've also been forging the path to bring this math to the people, so actually I forgive and quite frankly thank you (everyone except the dastard who created them -- and it wasn't Hermann Grassmann! (some history below)).
 
 # wedgeGA-symbols
 
@@ -42,7 +41,7 @@ And although I will never get the US to adopt SI units instead of imperial, for 
   * David Hestenes [Grassmann's Vision](https://davidhestenes.net/geocalc/pdf/GrassmannsVision.pdf)
   * David Geo Holmes (& STEMCstudio) [_17 Lesson Videos on GA_](https://www.youtube.com/playlist?list=PLxo3PbygE0PLdFFy_2b02JAaUsleFW8py)
     * Coming from a Computer Science background I really enjoyed these introductory videos using Typescript.
-  
+
 # Random
 
 * I'm certain I saw a copy of David Hestenes' book on Bret Victor's ([WorryDream](https://worrydream.com/)) literal, physical bookshelf at an open house of Dynamicland in Oakland, CA, USA.

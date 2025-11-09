@@ -1,7 +1,29 @@
+# wedgeGA — Geometric Algebra Wedge and Antiwedge Symbols for LaTeX
+
+This package defines two custom TikZ-based symbols:
+
+- `\wedgeGA` — stylized “wedge” (<img src="docs/wedgeGA.svg" alt="\wedgeGA" style="height:1em; vertical-align:-0.15em;">) for outer product
+- `\antiwedgeGA` — inverted “wedge” (<img src="docs/antiwedgeGA.svg" alt="\antiwedgeGA" style="height:1em; vertical-align:-0.15em;">) for inner/dual operations
+
+It aims to provide visual distinction between the *exterior* and *dual* operations in Geometric Algebra.
+
+## Usage
+
+```latex
+\usepackage{wedgeGA}
+
+$A \wedgeGA B \antiwedgeGA C$
+```
+
+For full examples, see the examples/ directory.
+<br>
+
 <p align="center">
  <img width="427" height="32" alt="old_wedges_vs_new_v2" src="https://github.com/user-attachments/assets/93bb715a-71e7-4a36-ab40-51f44b614ead" />
 </p>
 <br>
+
+# An Explanation
 
 | _tl;dr_ |
 |--|
@@ -29,25 +51,26 @@ I was only aware of the swapped usage from mathematicians who would point this o
 
 > In essence, Rota's "choice of symbols" was tied to his philosophical preference for a synthetic, geometrically intuitive notation that reflected the combinatorial and geometric nature of Grassmann's ideas, which he sought to revive and bring into mainstream mathematics. He emphasized the conceptual meaning behind the symbols, such as "progressive product," rather than just their conventional use.
 
-Note to self: Review <https://ar5iv.labs.arxiv.org/html/0904.3349> (the symbols used with modular lattices with regard to geometric algebra (referred to as Grassmann-Cayley algebra)
+Note to self: Review <https://ar5iv.labs.arxiv.org/html/0904.3349> (the symbols used with modular lattices with regard to geometric algebra (referred to as Grassmann-Cayley algebra))
 
 ## Why these new symbols
 
-Coming from the computer graphics world and having learned traditional vector calculus in the American education system, I actually became quite upset (closest I get to autism) that this beautiful math had the exact opposite symbols that they should have. And apparently the wedge and the vee were not Grassman's but added by the person who collected his notes. These days I like to think of that person as a knowing saboteur who deprived all of us from the rightful math winning out! \[Edit\] Ok, it looks like it was [Claude Chevalley](https://en.wikipedia.org/wiki/Claude_Chevalley) if you believe this blog article that says: “the wedge symbol seems to have originated with Claude Chevalley sometime between 1951 and 1954.” ([source](https://galileo-unbound.blog/2019/12/02/hermann-grassmanns-nimble-wedge-product/?utm_source=chatgpt.com)) and then the symbols were picked up by Bourbaki propelling them toward a status of canon. Ok, Chevalley is probably somebody's favorite mathematician and also an early advocate of these maths (who merely guessed at symbology exactly opposite what he should have)(†) so I should stop bashing him, now that the culprit has been exposed. Ok, even he is forgiven now. So maybe humanity can use these transitional symbols (<img src="docs/wedgeGA.svg" alt="\wedgeGA" style="height:1em; vertical-align:-0.15em;">, <img src="docs/antiwedgeGA.svg" alt="\antiwedgeGA" style="height:1em; vertical-align:-0.15em;">) for 100 years and then get the $\land$ and $\lor$ back with their correct orientation.
+Coming from the computer graphics world and having learned traditional vector calculus in the American education system, I actually became quite upset (closest I get to autism) that this beautiful math had the exact opposite symbols that they should have. And apparently the wedge and the vee were not Grassman's but added by the person who collected his notes. These days I like to think of that person as a knowing saboteur who deprived all of us from the rightful math winning out! \[Edit\] Ok, it looks like it was [Claude Chevalley](https://en.wikipedia.org/wiki/Claude_Chevalley) if you believe this blog article that says: “the wedge symbol seems to have originated with Claude Chevalley sometime between 1951 and 1954.” ([source](https://galileo-unbound.blog/2019/12/02/hermann-grassmanns-nimble-wedge-product/?utm_source=chatgpt.com)) and then the symbols were picked up by Bourbaki propelling them toward a status of canon. Ok, Chevalley is probably somebody's favorite mathematician and also an early advocate of these mathematics (who merely guessed at symbology exactly opposite what he should have(†)) so I should stop bashing him, now that the culprit has been exposed. Ok, even he is forgiven now. So maybe humanity can use these transitional symbols (<img src="docs/wedgeGA.svg" alt="\wedgeGA" style="height:1em; vertical-align:-0.15em;">, <img src="docs/antiwedgeGA.svg" alt="\antiwedgeGA" style="height:1em; vertical-align:-0.15em;">) for 100 years and then get the $\lor$ and $\land$ back with their correct orientation.
 
 And although I am certain I will never convince the US to adopt SI units instead of imperial (I wouldn't be the first to try), for some reason I feel like spending the effort to help _right_ this particular _wrong_ before the poison spreads too far!
 
 # Gratitude
 
-* Forever and always to
-  * Freya Holmér [Why can't you multiply vectors?](https://www.youtube.com/watch?v=htYh-Tq7ZBI) _You should probably just watch this before anything else if you want a beautiful conception of the motivation for GA._
-    * The first time I saw Freya Holmér's amazing [YouTube channel](https://www.youtube.com/@acegikmo) many years ago, I thought to myself "Oh if only I could suggest to her to look at Grassmann Algebras" and I had ADHD-level todo items for years scribbled away in the corner of notes saying "Suggest Grassmann Algebras to Freya Holmér" and I always assumed she'd think I'm a total loon, so I did nothing. And now look! I was completely inconsequential with her making this phenomenal presentation 😻 (2 years ago now even ... I guess I stopped paying attention to the world) and yet, I have been reprieved.
-  * [Eric Lengyel](https://terathon.com/lengyel/) whose GDC (2012?, 2014?) presentations were the first place I heard of Grassmann Algebras
-  * David Hestenes, who knows if Eric Lengyel would have heard of GA, if it were not for physicist David Hestenes.
-    * [Grassmann's Vision](https://davidhestenes.net/geocalc/pdf/GrassmannsVision.pdf)
-    * [Primer on Geometric Algebra](https://davidhestenes.net/geocalc/pdf/PrimerGeometricAlgebra.pdf)
-  * David Geo Holmes (& STEMCstudio) [_17 Lesson Videos on GA_](https://www.youtube.com/playlist?list=PLxo3PbygE0PLdFFy_2b02JAaUsleFW8py)
-    * Coming from a Computer Science background I really enjoyed these introductory videos using Typescript to build up the "geometric number" objects.
+Forever and always to
+
+* Freya Holmér [Why can't you multiply vectors?](https://www.youtube.com/watch?v=htYh-Tq7ZBI) _You should probably just watch this before anything else if you want a beautiful conception of the motivation for GA._
+  * The first time I saw Freya Holmér's amazing [YouTube channel](https://www.youtube.com/@acegikmo) many years ago, I thought to myself "Oh if only I could suggest to her to look at Grassmann Algebras" and I had ADHD-level todo items for years scribbled away in the corner of notes saying "Suggest Grassmann Algebras to Freya Holmér" and I always assumed she'd think I'm a total loon, so I did nothing. And now look! I was completely inconsequential with her making this phenomenal presentation 😻 (2 years ago now even ... I guess I stopped paying attention to the world) and yet, I have been reprieved.
+* [Eric Lengyel](https://terathon.com/lengyel/) whose GDC (2012?, 2014?) presentations were the first place I heard of Grassmann Algebras
+* David Hestenes, who knows if Eric Lengyel would have heard of GA, if it were not for physicist David Hestenes.
+  * [Grassmann's Vision](https://davidhestenes.net/geocalc/pdf/GrassmannsVision.pdf)
+  * [Primer on Geometric Algebra](https://davidhestenes.net/geocalc/pdf/PrimerGeometricAlgebra.pdf)
+* David Geo Holmes (& STEMCstudio) [_17 Lesson Videos on GA_](https://www.youtube.com/playlist?list=PLxo3PbygE0PLdFFy_2b02JAaUsleFW8py)
+  * Coming from a Computer Science background I really enjoyed these introductory videos using Typescript to build up the "geometric number" objects.
 
 # Random
 

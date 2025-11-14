@@ -68,7 +68,7 @@ Forever and always to
 * David Hestenes: Who knows if Eric Lengyel or any of us would have heard of GA, if it were not for physicist David Hestenes.
   * [Grassmann's Vision](https://davidhestenes.net/geocalc/pdf/GrassmannsVision.pdf)
   * [Primer on Geometric Algebra](https://davidhestenes.net/geocalc/pdf/PrimerGeometricAlgebra.pdf)
-  * [Projective Geometry with Clifford Algebra*](https://davidhestenes.net/geocalc/pdf/PGwithCA.pdf) a paper with RENATUS ZIEGLER which references Gian Carlo Rota's advocacy of Grassmann Algebras.
+  * [Projective Geometry with Clifford Algebra*](https://davidhestenes.net/geocalc/pdf/PGwithCA.pdf) a 1991 paper with RENATUS ZIEGLER which references Gian Carlo Rota's advocacy of Grassmann Algebras.
 * David Geo Holmes (& STEMCstudio) [_17 Lesson Videos on GA_](https://www.youtube.com/playlist?list=PLxo3PbygE0PLdFFy_2b02JAaUsleFW8py)
   * Coming from a Computer Science background I really enjoyed these introductory videos using Typescript to build up the "geometric number" objects.
 

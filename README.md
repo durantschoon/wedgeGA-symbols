@@ -52,7 +52,7 @@ I was only aware of the swapped usage from mathematicians who would point this o
 
 > In essence, Rota's "choice of symbols" was tied to his philosophical preference for a synthetic, geometrically intuitive notation that reflected the combinatorial and geometric nature of Grassmann's ideas, which he sought to revive and bring into mainstream mathematics. He emphasized the conceptual meaning behind the symbols, such as "progressive product," rather than just their conventional use.
 
-Note to self: Review [An Algebra of Pieces of Space — Hermann Grassmann to Gian Carlo Rota](https://ar5iv.labs.arxiv.org/html/0904.3349) by Henry Crapo (see here the math symbols used with modular lattices are properly in line with the use of the symbols in the world of Logic, also discusses Rota and his view of Grassmann-Cayley algebras).
+Note to self: Review [An Algebra of Pieces of Space — Hermann Grassmann to Gian Carlo Rota](https://ar5iv.labs.arxiv.org/html/0904.3349) by Henry Crapo (see here the math symbols used with modular lattices are properly in line with the use of the symbols in the world of Logic). The piece, published in 2009, is a remembrance of Rota. Here is a [remebrance of Crapo](https://matroidunion.org/?p=2443) published in 2019. Everybody hug your loved ones, now.
 
 ## Why these new symbols
 

@@ -15,7 +15,7 @@ It aims to provide visual distinction between the *exterior* and its *dual* oper
 $A \wedgeGA B \antiwedgeGA C$
 ```
 
-For full examples, see the examples/ directory.
+For full examples, see the examples/ directory (which I also might populate with various works viewing the new symbols used in them just so I can see what they'd look like).
 <br>
 <br>
 

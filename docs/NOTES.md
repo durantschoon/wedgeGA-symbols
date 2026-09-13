@@ -40,5 +40,21 @@ THE-CASE §5 and GAFRO-CONNECTION matches the source verbatim:
 5. *Open.* Documentation is `.sty` comments only; CTAN expects a README plus
    a doc PDF (or a `.dtx`).
 
+6. *Open — taste.* After the `\mathbin` fix, text/display sizes match
+   `\wedge` within 0.03pt and unary contexts (`-\wedgeGA b`) demote
+   correctly. But in subscripts `x_{a\wedgeGA b}` is 20.77pt vs 19.46pt for
+   `x_{a\wedge b}`: script style has no operator spacing, so the 1.3pt is
+   the glyph itself. The `\mathchoice` scales (0.53 / 0.45 / 0.37) shrink
+   script to ~85% of text size; Computer Modern shrinks `\wedge` to ~70%.
+   Scales of ~0.37 / ~0.27 would match. Left alone: the larger script glyph
+   may be deliberate, since the embedded legacy ∧ must stay legible small.
+
 **Open questions for the author:** license choice; whether `\mathbin` spacing
-is right for the author's eye; which menu direction next.
+is right for the author's eye; script-size scale (item 6); which menu
+direction next.
+
+**Research in flight (session 2):** a primary-source hunt for the Rota
+"backwards" quote, a survey of others who raised the inversion, and the
+dual-PGA counterpoint (in Gunn's plane-based PGA, `∧` of two planes is
+their intersection line — does that undercut THE-CASE §1?). Results to be
+appended here.

@@ -62,14 +62,14 @@
 
 % Boxes (separate struts + baselines)
 \newcommand{\GArelboxUp}[2]{%
-  \mathrel{\vcenter{\hbox{%
+  \mathbin{\vcenter{\hbox{%
     \rule{0pt}{1.2ex}% top strut
     \rule[-0.90ex]{0pt}{0pt}% depth
     \tikz[x=1em,y=1em,baseline=-0.34ex,scale=#1]{\pic{#2};}%
   }}}%
 }
 \newcommand{\GArelboxDown}[2]{%
-  \mathrel{\vcenter{\hbox{%
+  \mathbin{\vcenter{\hbox{%
     \rule{0pt}{1.58ex}%
     \rule[-0.94ex]{0pt}{0pt}%
     \tikz[x=1em,y=1em,baseline=-0.38ex,scale=#1]{\pic{#2};}%

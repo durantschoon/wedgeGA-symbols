@@ -152,8 +152,29 @@ German text. One paraphrase is not verified word for word: G8's "arbitrarily
 and against the nature of the thing". Its German line is OCR-damaged.
 
 **Still open.**
-- License choice.
+- ~~License choice.~~ Resolved below.
 - Script-size scale (item 6 above).
 - The Makefile.
 - BBR 1985 and Bourbaki 1948 typography, both unread.
 - Hestenes & Sobczyk 1984 join/meet notation (∪/∩?), unverified.
+
+## 2026-09-13 — licensing; page fix
+
+**Licenses (author decision).**
+- The package (`wedgeGA.sty`, `examples/`) is LPPL 1.3c or later, status
+  `maintained`, maintainer Durant Schoon. The root `LICENSE` is the official
+  text from latex-project.org (2008-05-04). The copy bundled with
+  KOMA-Script carries an older 2006 date.
+- The docs are CC BY 4.0. `docs/LICENSE` holds the official legal code.
+
+**Provenance flag for the author.** `docs/ExteriorAlgebraArticle.{md,tex}`
+say they are "Modified from the original at galileo-unbound.blog" (Nolte,
+2019), and the `*form*.png` figures appear to come from, or derive from,
+that post. `docs/LICENSE` excludes them from CC BY. Hosting a modified copy
+of a copyrighted blog post in a public repo may need Nolte's permission, or
+the files could be replaced with a link. The author's call.
+
+**Web page fix.** The legacy mark inside each glyph did not show red. It
+was colored by an inline `style` attribute inside an SVG `<symbol>`, and
+the artifact host's CSP strips inline styles. The glyphs are now drawn
+directly, with class-based CSS.

@@ -17,6 +17,10 @@ $A \wedgeGA B \antiwedgeGA C$
 
 For full examples, see the examples/ directory.
 
+## License
+
+The package (`wedgeGA.sty` and the files in `examples/`) is distributed under the [LaTeX Project Public License 1.3c](LICENSE) or later. The essays and notes in `docs/` are licensed [CC BY 4.0](docs/LICENSE), except where [docs/LICENSE](docs/LICENSE) notes otherwise. Quoted passages from other authors remain under their authors' copyright.
+
 ## The full argument
 
 The case below is made in the author's own voice. For the tightened, cited version — the semantic claim stated precisely, the Chevalley/Bourbaki history verified and hedged, the steelman for keeping `∧`, and the kernel-checked Lean 4 theorems that make "the wedge is a join" literal — see **[docs/THE-CASE.md](docs/THE-CASE.md)**. For how the gafro family's formal work (the Mathlib bridge, the KP-003 convention bug) supports the advocacy, see **[docs/GAFRO-CONNECTION.md](docs/GAFRO-CONNECTION.md)**. For the argument as an essay, written in the manners of Grassmann and Hestenes, see **[docs/ON-THE-SIGN.md](docs/ON-THE-SIGN.md)**.

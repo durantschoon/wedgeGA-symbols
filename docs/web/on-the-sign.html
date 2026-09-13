@@ -200,6 +200,11 @@
   .requests li { padding-left: 1.1rem; border-left: 2px solid var(--prussian); }
   .requests .to { font-style: italic; }
 
+  /* Glyph strokes: classes, not inline styles (the host CSP strips style attributes). */
+  .outer, .legacy { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .outer { stroke: currentColor; }
+  .legacy { stroke: var(--legacy, currentColor); }
+
   .part-rule { border: 0; margin: 3.5rem 0 0; height: 1.6rem; display: grid; place-items: center; }
   .part-rule svg { width: 3.2rem; height: 1.4rem; color: var(--muted); stroke-width: 0.09; --legacy: var(--muted); }
 
@@ -230,19 +235,6 @@
   }
 </style>
 
-<!-- Glyphs redrawn from wedgeGA.sty's TikZ coordinates; the inner stroke is the embedded legacy sign. -->
-<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
-  <defs>
-    <symbol id="wga" viewBox="-0.36 -0.31 0.72 0.62">
-      <polyline points="-0.30,-0.25 -0.15,0.25 0,0.07 0.15,0.25 0.30,-0.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-      <polyline points="-0.15,0.25 0,0.07 0.15,0.25" fill="none" style="stroke: var(--legacy, currentColor)" stroke-linecap="round" stroke-linejoin="round"/>
-    </symbol>
-    <symbol id="awga" viewBox="-0.36 -0.31 0.72 0.62">
-      <polyline points="-0.30,0.24 -0.15,-0.24 0,-0.07 0.15,-0.24 0.30,0.24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-      <polyline points="-0.15,-0.24 0,-0.07 0.15,-0.24" fill="none" style="stroke: var(--legacy, currentColor)" stroke-linecap="round" stroke-linejoin="round"/>
-    </symbol>
-  </defs>
-</svg>
 
 <div class="page">
   <header class="masthead">
@@ -253,11 +245,11 @@
     </div>
     <div class="emblem" role="group" aria-label="The proposed signs">
       <figure>
-        <svg class="g-big" role="img" aria-label="new wedge sign"><use href="#wga"/></svg>
+        <svg class="g-big" viewBox="-0.36 -0.31 0.72 0.62" role="img" aria-label="new wedge sign"><polyline class="outer" points="-0.30,-0.25 -0.15,0.25 0,0.07 0.15,0.25 0.30,-0.25"/><polyline class="legacy" points="-0.15,0.25 0,0.07 0.15,0.25"/></svg>
         <figcaption>outer product<code>\wedgeGA</code></figcaption>
       </figure>
       <figure>
-        <svg class="g-big" role="img" aria-label="new antiwedge sign"><use href="#awga"/></svg>
+        <svg class="g-big" viewBox="-0.36 -0.31 0.72 0.62" role="img" aria-label="new antiwedge sign"><polyline class="outer" points="-0.30,0.24 -0.15,-0.24 0,-0.07 0.15,-0.24 0.30,0.24"/><polyline class="legacy" points="-0.15,-0.24 0,-0.07 0.15,-0.24"/></svg>
         <figcaption>regressive product<code>\antiwedgeGA</code></figcaption>
       </figure>
     </div>
@@ -312,11 +304,11 @@
       <p>It will be objected that a sign is only a convention, and that any convention serves once it is agreed. If agreement were the whole of the matter, we might write + for multiplication and × for addition and trust every reader to remember, and nobody proposes this, because the agreement between a sign and the meaning it carries across the rest of mathematics is part of what makes the sign readable at all. Grassmann was careful to say that “names matter little here,” and then to name the question that does matter: whether a boundary drawn between two domains would split, arbitrarily and against the nature of the thing, what belongs together. The span of subspaces and the join of a lattice belong together. Our signs draw the boundary straight through them.</p>
 
       <aside class="side"><span class="de">„… wo es aus dem Staube der Vergessenheit hervorgezogen werden wird, und wo die darin niedergelegten Ideen ihre Frucht tragen werden.“</span><span class="src">1862, Vorrede, p. VIII</span></aside>
-      <p>The correspondence I have described is not mine, and I do not think it optional. The form in which I propose to honor it, a pair of glyphs drawn in TikZ, is mine, and it is imperfect. The new wedge <svg class="g" role="img" aria-label="new wedge"><use href="#wga"/></svg> is a <span class="op">∨</span> whose base folds up into a small <span class="op">∧</span>, and the new antiwedge <svg class="g" role="img" aria-label="new antiwedge"><use href="#awga"/></svg> is a <span class="op">∧</span> with a small <span class="op">∨</span> at its peak. A reader who knows only the old signs finds them there, and a reader who knows the lattice sees the larger shape. In the foreword to his second book, seventeen years after the first had gone almost unread, Grassmann wrote that even if this one should lie idle as long or longer, a time would come when it “will be drawn out of the dust of oblivion, and the ideas set down in it will bear fruit.” They have borne it, and they are taught now under signs he never used. I would like the small inner mark to be needed for a long while, and then, some day, for no one to need it.</p>
+      <p>The correspondence I have described is not mine, and I do not think it optional. The form in which I propose to honor it, a pair of glyphs drawn in TikZ, is mine, and it is imperfect. The new wedge <svg class="g" viewBox="-0.36 -0.31 0.72 0.62" role="img" aria-label="new wedge"><polyline class="outer" points="-0.30,-0.25 -0.15,0.25 0,0.07 0.15,0.25 0.30,-0.25"/><polyline class="legacy" points="-0.15,0.25 0,0.07 0.15,0.25"/></svg> is a <span class="op">∨</span> whose base folds up into a small <span class="op">∧</span>, and the new antiwedge <svg class="g" viewBox="-0.36 -0.31 0.72 0.62" role="img" aria-label="new antiwedge"><polyline class="outer" points="-0.30,0.24 -0.15,-0.24 0,-0.07 0.15,-0.24 0.30,0.24"/><polyline class="legacy" points="-0.15,-0.24 0,-0.07 0.15,-0.24"/></svg> is a <span class="op">∧</span> with a small <span class="op">∨</span> at its peak. A reader who knows only the old signs finds them there, and a reader who knows the lattice sees the larger shape. In the foreword to his second book, seventeen years after the first had gone almost unread, Grassmann wrote that even if this one should lie idle as long or longer, a time would come when it “will be drawn out of the dust of oblivion, and the ideas set down in it will bear fruit.” They have borne it, and they are taught now under signs he never used. I would like the small inner mark to be needed for a long while, and then, some day, for no one to need it.</p>
     </div>
   </section>
 
-  <div class="part-rule col" role="separator"><svg viewBox="-0.36 -0.31 0.72 0.62" aria-hidden="true"><use href="#wga"/></svg></div>
+  <div class="part-rule col" role="separator"><svg viewBox="-0.36 -0.31 0.72 0.62" aria-hidden="true"><polyline class="outer" points="-0.30,-0.25 -0.15,0.25 0,0.07 0.15,0.25 0.30,-0.25"/><polyline class="legacy" points="-0.15,0.25 0,0.07 0.15,0.25"/></svg></div>
 
   <!-- ============ PART II ============ -->
   <section class="prose" aria-labelledby="p2">
@@ -408,7 +400,7 @@
           <li>J. Miller, <i>Earliest Uses of Symbols of Set Theory and Logic</i>, MacTutor.</li>
           <li>gafro-lean, <code>GafroLean/Laws.lean</code>, <code>wedge_grade_additive</code>.</li>
         </ul>
-        <p class="colophon">Translations from Grassmann’s German are new for this essay; the originals stand in the margins. The glyphs are drawn from the coordinates in the wedgeGA LaTeX package: <a href="https://github.com/durantschoon/wedgeGA-symbols">github.com/durantschoon/wedgeGA-symbols</a>.</p>
+        <p class="colophon">Translations from Grassmann’s German are new for this essay; the originals stand in the margins. The glyphs are drawn from the coordinates in the wedgeGA LaTeX package: <a href="https://github.com/durantschoon/wedgeGA-symbols">github.com/durantschoon/wedgeGA-symbols</a>. Essay text © 2026 Durant Schoon, licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; quoted passages remain their authors’.</p>
       </footer>
     </div>
   </section>

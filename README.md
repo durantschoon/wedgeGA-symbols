@@ -19,7 +19,7 @@ For full examples, see the examples/ directory.
 
 ## The full argument
 
-The case below is made in the author's own voice. For the tightened, cited version — the semantic claim stated precisely, the Chevalley/Bourbaki history verified and hedged, the steelman for keeping `∧`, and the kernel-checked Lean 4 theorems that make "the wedge is a join" literal — see **[docs/THE-CASE.md](docs/THE-CASE.md)**. For how the gafro family's formal work (the Mathlib bridge, the KP-003 convention bug) supports the advocacy, see **[docs/GAFRO-CONNECTION.md](docs/GAFRO-CONNECTION.md)**.
+The case below is made in the author's own voice. For the tightened, cited version — the semantic claim stated precisely, the Chevalley/Bourbaki history verified and hedged, the steelman for keeping `∧`, and the kernel-checked Lean 4 theorems that make "the wedge is a join" literal — see **[docs/THE-CASE.md](docs/THE-CASE.md)**. For how the gafro family's formal work (the Mathlib bridge, the KP-003 convention bug) supports the advocacy, see **[docs/GAFRO-CONNECTION.md](docs/GAFRO-CONNECTION.md)**. For the argument as an essay, written in the manners of Grassmann and Hestenes, see **[docs/ON-THE-SIGN.md](docs/ON-THE-SIGN.md)**.
 <br>
 
 <p align="center">
@@ -54,6 +54,13 @@ I was only aware of the swapped usage from mathematicians who would point this o
 <mark> Rota was also aware that the standard symbol for the join operation in projective geometry and lattice theory is $\lor$, but in exterior algebra the "wedge" symbol $\land$ is used, which he considered "backwards" in a certain sense. He noted that $\lor$ should correspond to the union operation in some generalized sense, given the geometric interpretation of the product spanning a subspace. </mark>
 
 > In essence, Rota's "choice of symbols" was tied to his philosophical preference for a synthetic, geometrically intuitive notation that reflected the combinatorial and geometric nature of Grassmann's ideas, which he sought to revive and bring into mainstream mathematics. He emphasized the conceptual meaning behind the symbols, such as "progressive product," rather than just their conventional use.
+
+> **Note (2026-09-13):** The highlighted sentence above cannot be traced to anything Rota wrote. It looks like a blogger's opinion (Alex Kritchevsky, ["Exterior Algebra #8"](https://alexkritchevsky.com/2020/10/15/ea-operations.html), 2020: "Projective geometers and Rota got it right: it should be ∨") attributed to Rota by the AI summary. What his school did write:
+>
+> - Barnabei, Brini & Rota (1985), as quoted by Hestenes in "Mathematical Viruses" (1992): "It would, however, be capricious to limit such a calculus to a single operation, just as capricious as limiting the algebra of sets to the single operation of union."
+> - Sturmfels, *Algorithms in Invariant Theory* (2nd ed., 2008), §3.3, presenting the formalism Rota's school developed: "For geometric reasons we write the exterior product in Λ(V) as '∨' instead of the usual '∧', and refer to it as the join operation."
+>
+> Details in [docs/NOTES.md](docs/NOTES.md).
 
 Note to self: Review <https://ar5iv.labs.arxiv.org/html/0904.3349> (the symbols used with modular lattices with regard to geometric algebra (referred to as Grassmann-Cayley algebra))
 

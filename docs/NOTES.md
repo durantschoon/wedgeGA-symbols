@@ -58,3 +58,102 @@ direction next.
 dual-PGA counterpoint (in Gunn's plane-based PGA, `∧` of two planes is
 their intersection line — does that undercut THE-CASE §1?). Results to be
 appended here.
+
+## 2026-09-13 — research results: Rota, prior critics, plane-based PGA
+
+Source texts were read by a research agent; the five quotes marked ✓ were
+re-checked by grep against the downloaded text.
+
+**The Rota "backwards" quote: unsupported.** No primary source uses the
+word or states an opinion on the glyphs. Most likely origin: an AI summary
+attributing to Rota the opinion of a blogger, Alex Kritchevsky ("Exterior
+Algebra #8", 2020): "Cartan and the vector analysis folks definitely got the
+symbol ∧ for the exterior product wrong. Projective geometers and Rota got it
+right: it should be ∨". What Rota's school *did* write, as quoted by Hestenes
+in "Mathematical Viruses" (1992) from Barnabei–Brini–Rota 1985 ✓: "It would,
+however, be capricious to limit such a calculus to a single operation, just
+as capricious as limiting the algebra of sets to the single operation of
+union." The same passage's "a step backwards in clarity" is about duality,
+not glyphs, and may have seeded the AI wording. BBR 1985, DRS 1974 and
+GRS 1987 typography remain unread (paywalled).
+
+Two other unverified claims in the README's AI-quoted block: that Rota's
+circle called it "geometric algebra" (Crapo says "Grassmann-Cayley algebra
+and Peano spaces"), and that Rota wrote products with "square brackets" (in
+that school `[abc]` is the bracket, a determinant).
+
+**Others who write ∨ for the exterior product, or say why:**
+- Sturmfels, *Algorithms in Invariant Theory*, 2nd ed. (2008), §3.3 p. 94 ✓:
+  "For geometric reasons we write the exterior product in Λ(V) as '∨'
+  instead of the usual '∧', and refer to it as the join operation."
+  The cleanest citable rationale.
+- Grunberg, supplement to Dorst–Fontijne–Mann *GA4CS* (2008) ✓, a concession
+  from inside mainstream GA: "Because of our preemptive use of '∧' for the
+  outer product, we cannot simply appropriate lattice theory's notation".
+- Gunn, arXiv:1411.6502 §3.3 ✓: writes the point-algebra wedge "as ∨ (join)".
+- Brini–Regonati arXiv:1010.2964; Vourdas arXiv:1810.04430 ("Most of the
+  literature uses the opposite notation"); Bidleman et al. arXiv:2504.00889.
+- Hestenes & Ziegler (1991) use ∧ for join and call its support the
+  "lattice join", without remarking on the clash.
+- Symbol history: ∨ for disjunction in Russell's manuscripts 1902–06; ∧ for
+  conjunction from Heyting 1930 (Jeff Miller, *Earliest Uses of Symbols*).
+  Both predate the exterior wedge. Bourbaki *Algèbre* ch. III (1948) is an
+  unexamined candidate earlier than Chevalley 1954.
+
+**Plane-based PGA: a real limit on THE-CASE's claim.** When 1-vectors
+represent planes, the exterior product still spans in the algebra, but the
+annihilator map turns span into geometric intersection. So `∧` *is* the
+geometric meet there, and PGA's glyphs already agree with lattice and set
+symbols. Dorst 2024 ✓: "a ∧ b denotes the linear span of the vectors
+representing two planes". Dorst & De Keninck's *Guided Tour* makes the
+mnemonic explicit (∧ like ∩, ∨ like ∪). THE-CASE §1's "in every structural
+sense, a join" holds for the lattice of subspaces of the generating space,
+not for the geometry. A ∨-shaped `\wedgeGA` in plane-based PGA would make
+the meet of planes look like a join. **The package must declare whether its
+glyph encodes algebraic role (Rota, Sturmfels) or geometric role (Gunn).**
+
+**Lengyel correction (README "Random").** His site reports sponsoring the
+existing code points ⟑ U+27D1 and ⟇ U+27C7, for the geometric product and
+antiproduct. It is not a wedge/antiwedge proposal.
+
+## 2026-09-13 — author decisions; essay written
+
+**Decisions (author).**
+- The glyphs name the *algebraic* role of the operations (Rota, Sturmfels),
+  and plane-based PGA is addressed openly as the cost.
+- The README's Rota block keeps the author's text, with an additive note
+  giving the verified sources.
+
+**Written.**
+- `docs/ON-THE-SIGN.md`: the essay in two manners, after Grassmann and after
+  Hestenes, grounded in a style study of their actual prose.
+- `docs/WRITING-WORKSHOP.md`: its companion, covering the habits cut, the
+  moves used, the essay's weak spots, and exercises.
+- THE-CASE, factual corrections only; its LLM-voice sentences are kept as
+  workshop material:
+  - §1 qualified ("join in the lattice of subspaces").
+  - §2 adds Sturmfels, Brini–Regonati, Vourdas, Gunn, Grunberg's concession
+    and Hestenes–Ziegler; replaces the Rota paragraph; drops "corrected it".
+  - §3 adds Russell 1902 / Heyting 1930 and the Bourbaki 1948 lead.
+  - §4 adds plane-based PGA as steelman point 4, with the package's answer.
+
+**Quotes in the essay, checked against source text** (downloaded
+archive.org scans and author PDFs):
+- Grassmann 1844 Vorrede: the first push, and the arbitrary coordinates.
+- Grassmann 1862 Vorrede: absurd to denote differently, necessary to
+  distinguish, names matter little, 17 years and the dust of oblivion.
+- Grassmann 1862 No. 94: the complement definition.
+- Hestenes: UL 1986 (laissez-faire; custom is not enough); MV 1992 (the
+  definition, remnant, nothing wrong, capricious); Oersted (the dictum);
+  H–Z 1991 (lattice join, J = A∧B); GV (without due credit).
+
+The German translations were made by the research agent, from the verified
+German text. One paraphrase is not verified word for word: G8's "arbitrarily
+and against the nature of the thing". Its German line is OCR-damaged.
+
+**Still open.**
+- License choice.
+- Script-size scale (item 6 above).
+- The Makefile.
+- BBR 1985 and Bourbaki 1948 typography, both unread.
+- Hestenes & Sobczyk 1984 join/meet notation (∪/∩?), unverified.

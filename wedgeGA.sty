@@ -76,14 +76,15 @@
   }}}%
 }
 
-% Public macros (auto-scale)
-\newcommand{\wedgeGA}{%
+% Public macros (auto-scale). Robust, so they survive moving arguments
+% (\section titles, captions, the table of contents) where \tikz would break.
+\DeclareRobustCommand{\wedgeGA}{%
   \mathchoice{\GArelboxUp{0.53}{wedgeGAshape}}%
              {\GArelboxUp{0.53}{wedgeGAshape}}%
              {\GArelboxUp{0.45}{wedgeGAshape}}%
              {\GArelboxUp{0.37}{wedgeGAshape}}%
 }
-\newcommand{\antiwedgeGA}{%
+\DeclareRobustCommand{\antiwedgeGA}{%
   \mathchoice{\GArelboxDown{0.53}{antiwedgeGAshape}}%
              {\GArelboxDown{0.53}{antiwedgeGAshape}}%
              {\GArelboxDown{0.45}{antiwedgeGAshape}}%

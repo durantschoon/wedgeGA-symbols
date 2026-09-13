@@ -189,3 +189,15 @@ rewrite is harmless and stays. The real change is adb5087: orange replaces
 red, since blue/orange is the colour-vision-safe pair, and the caption now
 names the mark's position ("inner mark") so the cue does not rest on colour
 alone.
+
+## 2026-09-13 — end of session 2; handoff
+
+The working state across all three repos, the remaining deploy steps, and the
+prioritized open items are in `HANDOFF.md` in `durantschoon/eigenblade-site`.
+
+Still open in this repo:
+- the Nolte-derived files (item 5 there);
+- the script-size scale (item 6 above);
+- the Makefile, and CTAN docs;
+- merging `foundation` into `main`;
+- the announcement plan, timed with the author's academic goals.

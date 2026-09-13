@@ -178,3 +178,14 @@ the files could be replaced with a link. The author's call.
 was colored by an inline `style` attribute inside an SVG `<symbol>`, and
 the artifact host's CSP strips inline styles. The glyphs are now drawn
 directly, with class-based CSS.
+
+## 2026-09-13 — correction: the "CSP stripped the red" diagnosis was wrong
+
+The entry above, and the commit message of e6bc59f, say the host's CSP
+stripped an inline style so the legacy mark never showed red. That was a
+guess. The author has since confirmed the red *was* rendering: the author
+has a perceptual condition that delays seeing it. The class-based glyph
+rewrite is harmless and stays. The real change is adb5087: orange replaces
+red, since blue/orange is the colour-vision-safe pair, and the caption now
+names the mark's position ("inner mark") so the cue does not rest on colour
+alone.

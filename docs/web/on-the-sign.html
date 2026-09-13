@@ -5,14 +5,15 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=STIX+Two+Text:ital@0;1&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
   /* Tokens. Prussian blue for the new signs (Grassmann taught in Stettin, Prussia);
-     proofreader's red only where a legacy sign is marked. */
+     orange only where a legacy sign is marked. Blue/orange stays distinct under the
+     common colour-vision deficiencies; captions also name position, not colour alone. */
   :root {
     --paper: #F3F5F4;
     --ink: #1A2027;
     --muted: #56616B;
     --rule: #D3DADC;
     --prussian: #1D4E6E;
-    --proof: #B3263E;
+    --legacy-ink: #B35500;
     --wash: #E7ECEE;
     --display: "Libre Bodoni", "Bodoni 72", "Didot", Georgia, serif;
     --text: "Newsreader", "Iowan Old Style", Georgia, serif;
@@ -29,7 +30,7 @@
       --muted: #98A4AE;
       --rule: #2A333B;
       --prussian: #8BB9DC;
-      --proof: #EF8190;
+      --legacy-ink: #FFB65C;
       --wash: #182028;
     }
   }
@@ -39,7 +40,7 @@
     --muted: #98A4AE;
     --rule: #2A333B;
     --prussian: #8BB9DC;
-    --proof: #EF8190;
+    --legacy-ink: #FFB65C;
     --wash: #182028;
   }
 
@@ -86,11 +87,11 @@
 
   .emblem { display: flex; gap: 2.25rem; margin: 0; }
   .emblem figure { margin: 0; display: grid; justify-items: center; gap: 0.35rem; text-align: center; }
-  .emblem .g-big { width: 6rem; height: 5.2rem; color: var(--prussian); --legacy: var(--proof); stroke-width: 0.052; }
+  .emblem .g-big { width: 6rem; height: 5.2rem; color: var(--prussian); --legacy: var(--legacy-ink); stroke-width: 0.052; }
   .emblem figcaption { font-size: 0.92rem; line-height: 1.25; }
   .emblem code { display: block; font-family: var(--mono); font-size: 0.72rem; color: var(--muted); margin-top: 0.15rem; }
   .emblem-note { grid-column: 2; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.04em; color: var(--muted); margin: -1rem 0 0; text-align: center; }
-  .emblem-note span { color: var(--proof); }
+  .emblem-note span { color: var(--legacy-ink); }
 
   /* ---------- Parts ---------- */
   .part-head { margin: 4rem 0 2rem; }
@@ -145,7 +146,7 @@
     overflow-x: auto;
   }
   .law .join { color: var(--prussian); font-weight: 600; }
-  .law .wedge { color: var(--proof); font-weight: 600; }
+  .law .wedge { color: var(--legacy-ink); font-weight: 600; }
 
   .laws {
     display: grid;
@@ -159,7 +160,7 @@
   .laws .eq { font-family: var(--math); font-size: 1.14rem; white-space: nowrap; overflow-x: auto; }
   .laws .cond { font-family: var(--math); font-size: 0.98rem; color: var(--muted); }
   .laws .join { color: var(--prussian); font-weight: 600; }
-  .laws .wedge { color: var(--proof); font-weight: 600; }
+  .laws .wedge { color: var(--legacy-ink); font-weight: 600; }
 
   pre.lean {
     font-family: var(--mono);
@@ -187,7 +188,7 @@
   .hasse text { fill: var(--ink); font-family: var(--math); font-size: 15px; }
   .hasse .lab { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.04em; fill: var(--muted); }
   .hasse .blue { fill: var(--prussian); }
-  .hasse .red { fill: var(--proof); }
+  .hasse .old { fill: var(--legacy-ink); }
 
   /* Hestenes' lettered costs */
   .costs { list-style: none; padding: 0; margin: 0 0 1.4rem; display: grid; gap: 0.9rem; }
@@ -253,7 +254,7 @@
         <figcaption>regressive product<code>\antiwedgeGA</code></figcaption>
       </figure>
     </div>
-    <p class="emblem-note">in <span>red</span>: the legacy sign, carried inside</p>
+    <p class="emblem-note">inner mark, in <span>orange</span>: the legacy sign</p>
   </header>
 
   <!-- ============ PART I ============ -->
@@ -283,7 +284,7 @@
           <text class="lab" x="268" y="52">LATTICE / LOGIC</text>
           <text x="268" y="72" class="blue"><tspan font-style="italic">a</tspan> ∨ <tspan font-style="italic">b</tspan></text>
           <text class="lab" x="268" y="104">LEGACY GA</text>
-          <text x="268" y="124" class="red"><tspan font-style="italic">a</tspan> ∧ <tspan font-style="italic">b</tspan></text>
+          <text x="268" y="124" class="old"><tspan font-style="italic">a</tspan> ∧ <tspan font-style="italic">b</tspan></text>
         </svg>
         <figcaption><b>Fig. 1</b>Two points and the line through them, drawn in the lattice of subspaces. The line sits above both points as their join; below them is only 0. The two traditions write the same element with opposite signs.</figcaption>
       </figure>
